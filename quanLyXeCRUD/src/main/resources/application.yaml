@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /quanlyxe
+
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/quanlyxe"
+    username: root
+    password: qaz12345
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
